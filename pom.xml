@@ -17,6 +17,11 @@
 		<spring-cloud.version>Greenwich.SR1</spring-cloud.version>
 	</properties>
 
+	<modules>
+		<module>spring-cloud-eureka</module>
+		<module>spring-cloud-eureka-peer</module>
+	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
