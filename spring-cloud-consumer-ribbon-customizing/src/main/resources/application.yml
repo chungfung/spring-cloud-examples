@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-consumer-ribbon-customizing
+server:
+  port: 8007
+spring-cloud-producer:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8000/eureka/
