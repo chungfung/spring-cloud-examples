@@ -9,6 +9,7 @@ public class HelloController {
 	
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return "hello " + name + ",this is from 8001!";
+        System.out.println("8002处理请求！");
+        return "hello " + name + ",this is from 8002!";
     }
 }
