@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8008/
+      name: chungfung
+      profile: default
+      label: master
